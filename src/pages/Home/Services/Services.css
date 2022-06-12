@@ -1,0 +1,17 @@
+.text-outline {
+    font-size: 150px;
+    -webkit-text-stroke: 3px rgb(74 222 128);
+}
+
+.neomorphism {
+    background: #6608c4;
+    border-radius: 15%;
+    box-shadow: 9.91px 9.91px 15px #5D07B2, -9.91px -9.91px 15px #6F09D6;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-outline {
+        font-size: 50px;
+        -webkit-text-stroke: 3px rgb(74 222 128);
+    }
+}
