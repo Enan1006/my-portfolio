@@ -9,13 +9,6 @@
             "React js",
             "Tailwindcss",
             "Firebase"
-        ],
-        "about": "A front-ent web application. Providing law related services.",
-        "Features": [
-            "Firebase used for hosting and user authentication",
-            "React js used as front-end technology",
-            "Tailwind css used for designing front-end",
-            "React Router used for routing"
         ]
     },
     {
@@ -31,15 +24,6 @@
             "MongoDB",
             "Firebase",
             "Heroku"
-        ],
-        "about": "A full-stack web application. Build for inventory management.",
-        "Features": [
-            "Firebase used for hosting and user authentication",
-            "React js used as front-end technology",
-            "Node js & Express js used as back-end technology",
-            "MongoDB used as database technology",
-            "Tailwind css used for designing front-end",
-            "React Router used for routing"
         ]
     }
 ]
