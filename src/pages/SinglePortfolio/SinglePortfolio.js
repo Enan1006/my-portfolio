@@ -48,7 +48,7 @@ const SinglePortfolio = () => {
                     <p>Hello:{portfolios.about}</p>
                     <ul>
                         {
-                            portfolios?.features?.map(feature => <li>{feature}</li>)
+                            portfolios?.Features?.map(feature => <li>{feature}</li>)
                         }
                     </ul>
                 </div>
