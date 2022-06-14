@@ -24,7 +24,9 @@ const Portfolio = () => {
                         portfolios.map(portfolio => <SinglePortfolio
                             portfolio={portfolio}
                             id={portfolio._id}
-                        ></SinglePortfolio>)
+                        >
+
+                        </SinglePortfolio>)
                     }
                 </div>
             </div>

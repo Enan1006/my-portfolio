@@ -4,6 +4,8 @@ import Contact from '../Contact/Contact';
 import Hero from '../Hero/Hero';
 import Portfolio from '../Portfolio/Portfolio';
 import Services from '../Services/Services';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
+
 
 const Home = () => {
     return (
@@ -13,6 +15,10 @@ const Home = () => {
             <Services />
             <Portfolio />
             <Contact />
+            <MessengerCustomerChat
+                pageId="107779455300338"
+                appId="436606324588003"
+            />
         </div>
     );
 };

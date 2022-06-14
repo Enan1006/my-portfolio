@@ -18,6 +18,7 @@ const Contact = () => {
             text: "Thanks for conntacting us. You'll receive a email shortly",
             icon: "success",
             button: "OK",
+            backgroundColor: "blue",
         });
         e.target.reset();
     };
@@ -36,7 +37,7 @@ const Contact = () => {
                     <br />
                     <label className='text-left text-2xl text-white pt-5' htmlFor="name">Email</label>
                     <br />
-                    <input className=' pl-4 py-2 w-3/4 md:w-1/2 bg-indigo-900 focus:border focus:border-white text-white text-xl rounded-lg' type="email" name="email" id="" placeholder='Your email...' required />
+                    <input className=' pl-4 py-2 w-3/4 md:w-1/2 bg-indigo-900 focus:border focus:border-white text-white text-xl rounded-lg' type="email" name="from_name" id="" placeholder='Your email...' required />
                     <br />
                     <br />
                     <label className='text-left text-2xl text-white' htmlFor="name">Message</label>
@@ -44,7 +45,7 @@ const Contact = () => {
                     <textarea className=' pl-4 py-2 w-3/4 md:w-1/2 bg-indigo-900 focus:border focus:border-white text-white text-xl rounded-lg' type="email" name="message" id="" placeholder='Your message...' required />
                     <br />
                     <br />
-                    <input className=' py-2 w-3/4 md:w-1/2 bg-indigo-900 cursor-pointer rounded-lg text-white font-bold hover:bg-transparent hover:shadow-lg hover:shadow-slate-800' type="submit" value="Send" />
+                    <input className=' py-3 w-3/4 md:w-1/2 bg-indigo-900 cursor-pointer rounded-lg text-white font-bold hover:bg-transparent hover:shadow-lg hover:shadow-slate-800 ' type="submit" value="Send" />
                 </form>
             </div>
         </div>

@@ -4,13 +4,26 @@
         "name": "Lawyer application",
         "img": "https://i.ibb.co/6wJjqjs/screencapture-justice-forum-web-app-2022-06-12-01-56-24.png",
         "liveLink": "https://justice-forum.web.app/",
-        "clientSide": "https://github.com/Enan1006/independent-service-provider"
+        "clientSide": "https://github.com/Enan1006/independent-service-provider",
+        "technologies": [
+            "React js",
+            "Tailwindcss",
+            "Firebase"
+        ]
     },
     {
         "_id": 2,
         "name": "Inventory application",
         "img": "https://i.ibb.co/6wJjqjs/screencapture-justice-forum-web-app-2022-06-12-01-56-24.png",
         "liveLink": "https://justice-forum.web.app/",
-        "clientSide": "https://github.com/Enan1006/independent-service-provider"
+        "clientSide": "https://github.com/Enan1006/independent-service-provider",
+        "technologies": [
+            "React js",
+            "Node js",
+            "Tailwindcss",
+            "MongoDB",
+            "Firebase",
+            "Heroku"
+        ]
     }
 ]

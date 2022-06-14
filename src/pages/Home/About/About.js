@@ -11,6 +11,12 @@ const About = () => {
                     <h3 className='text-green-500 text-xl text-left mb-3 font-semibold stroke-white stroke-2'>||  About me</h3>
                     <h2 className='text-4xl font-bold text-white text-left mb-4'>Imdadul Haque Enan</h2>
                     <p className='text-left text-white'>I’m Imdadul Haque Enan, presently pursuing a BSc in Electronics and Information Engineering. Lately I have find my interest on programming. So, I decided to explore programming and learning core concepts.  I’m extremely enthusiastic about programming, collecting knowledge and using it in a broad way. I am a positive, exuberant and competent guy. Who, over the months, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this role. I take my work as a Web Developer earnestly, and this betokens I always ascertain my skills are kept au courant within this expeditiously transmuting industry.</p>
+
+                    <p className='text-center text-white mt-10'>Follow me on:</p>
+                    <span className='block'>
+                        <a className='text-green-400 text-2xl shadow-lg shadow-slate-800 shadow-inner' href='https://www.linkedin.com/in/imdadul-haque-enan-168258241/' target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin mr-5"></i></a>
+                        <a className='text-green-400 text-2xl shadow-lg shadow-slate-800 shadow-inner' href='https://github.com/Enan1006/' target="_blank" rel="noreferrer"><i class="fa-brands fa-github ml-5"></i></a>
+                    </span>
                 </div>
                 <div>
                     <img className='translate-y-0 md:-translate-y-11' src={aboutImg} alt='' />
