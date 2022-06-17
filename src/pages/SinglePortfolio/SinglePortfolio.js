@@ -44,13 +44,15 @@ const SinglePortfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <p>Hello:{portfolios.about}</p>
-                    <ul>
+                <div className='py-20'>
+                    <p>About this project</p>
+                    <p>{portfolios.about}</p>
+                    <h1 className='mt-10'>Features:</h1>
+                    <ol className="list-decimal text-white">
                         {
-                            portfolios?.Features?.map(feature => <li>{feature}</li>)
+                            portfolios?.features?.map(feature => <li>{feature}</li>)
                         }
-                    </ul>
+                    </ol>
                 </div>
             </div>
 
